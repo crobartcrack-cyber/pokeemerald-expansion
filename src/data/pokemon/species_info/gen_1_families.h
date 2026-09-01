@@ -71,7 +71,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sBulbasaurLevelUpLearnset,
         .teachableLearnset = sBulbasaurTeachableLearnset,
         .eggMoveLearnset = sBulbasaurEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_IVYSAUR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 15, SPECIES_IVYSAUR}),
     },
 
     [SPECIES_IVYSAUR] =
@@ -141,7 +141,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sIvysaurLevelUpLearnset,
         .teachableLearnset = sIvysaurTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_VENUSAUR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_VENUSAUR}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
