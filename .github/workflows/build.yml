@@ -225,4 +225,9 @@ jobs:
     needs: []
     steps:
       - name: Automatically pass for allcontributors
-        run: echo "CI automatically passes for allcontributors" && exit 0
+        run: echo "CI automatically passes for allcontributors" && exit 0 
+      - name: Upload GBA ROM
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokeemerald-rom
+          path: '*.gba'
